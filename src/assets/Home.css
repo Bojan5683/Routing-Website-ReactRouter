@@ -1,0 +1,44 @@
+.home{
+    background-image: url('./images/img-home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.adventure{
+    color: white;
+    margin: 1em;
+    font-size: 90px;
+}
+
+.waiting{
+    color: white;
+    font-size: 35px;
+    margin-top: -1.5em;
+}
+
+.started{
+    width: 160px;
+    margin-right: -2.5em;
+    background-color: rgba(255, 255, 255, .01);
+    font-weight: 800;
+}
+
+.trailer{
+    width: 235px;
+    background-color: white;
+    color: #242424;
+    font-weight: 800;
+}
+
+.trailer:hover{
+    background-color: #242424;
+    color: white;
+}
+
+
